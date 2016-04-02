@@ -43,4 +43,5 @@ public class Place {
     public void setAddress(Address address) {
         this.address = address;
     }
+
 }
