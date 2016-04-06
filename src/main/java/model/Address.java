@@ -1,3 +1,5 @@
+package model;
+
 /**
  * @author renantdesouza.
  * @since 03/30/2016

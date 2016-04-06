@@ -1,3 +1,5 @@
+package model;
+
 import java.util.Date;
 import java.util.Scanner;
 
@@ -12,6 +14,7 @@ public class User {
     private String nickname;
     private String pass;
     private Date firstAccess;
+    private Date lastAccess;
 
     public User() {
     }
@@ -54,6 +57,14 @@ public class User {
 
     public void setFirstAccess(Date firstAccess) {
         this.firstAccess = firstAccess;
+    }
+
+    public Date getLastAccess() {
+        return lastAccess;
+    }
+
+    public void setLastAccess(Date lastAccess) {
+        this.lastAccess = lastAccess;
     }
 
 }
