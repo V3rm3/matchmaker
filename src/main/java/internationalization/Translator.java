@@ -11,12 +11,12 @@ import java.text.MessageFormat;
  * @author renantdesouza.
  * @since 04/06/2016.
  * */
-public class Internalizator {
+public class Translator {
 
     private Languages language;
     private static final String PATTERN_MESSAGE_PATH = "message_{0}.properties";
 
-    public Internalizator() {
+    public Translator() {
     }
 
     public Languages getLanguage() {

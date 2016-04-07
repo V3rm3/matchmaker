@@ -1,6 +1,6 @@
 package functional;
 
-import internationalization.Internalizator;
+import internationalization.Translator;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -17,7 +17,7 @@ public class InternationalizationTest {
 
     @Test
     public void getText() {
-        Internalizator i = new Internalizator();
+        Translator i = new Translator();
         i.setLanguage(MOCK_LOCALE);
 
         assertEquals(MOCK_LOCALE, i.getLanguage().getDescription());
