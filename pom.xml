@@ -10,11 +10,19 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
+        <!-- API que criar durante o compile os getters e setters -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.16.8</version>
             <scope>provided</scope>
+        </dependency>
+
+        <!-- driver para acesso ao nosql based mongoBD -->
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver</artifactId>
+            <version>3.2.2</version>
         </dependency>
     </dependencies>
 
