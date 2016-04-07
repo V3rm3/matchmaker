@@ -6,6 +6,8 @@ package internationalization;
  */
 public enum Languages {
 
+    // CREATED TO TEST
+    TEST((byte) 0, "test"),
     PT_BR((byte) 1, "pt_br"),
     EN_US((byte) 2, "en_us");
 

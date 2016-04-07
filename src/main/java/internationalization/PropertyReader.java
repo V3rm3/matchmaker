@@ -6,7 +6,7 @@ import java.util.Properties;
 /**
  * @author renantdesouza.
  * @since 04/06/2016.
- */
+ * */
 public class PropertyReader {
 
     private static Properties prop;
@@ -23,11 +23,6 @@ public class PropertyReader {
             e.printStackTrace();
             return null;
         }
-    }
-
-    public static void main(String... args) {
-        Object value = getProperty("application.properties", "test");
-        System.out.print(value);
     }
 
     private static Properties getProp() {

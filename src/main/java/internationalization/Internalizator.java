@@ -1,20 +1,19 @@
 package internationalization;
 
+import java.text.MessageFormat;
+
 /**
  * TODO CARREGAR A LINGUA ANTES DE INICIAR QUALQUER ACAO.
  *
  * @author renantdesouza.
  * @since 04/06/2016.
- */
+ * */
 public class Internalizator {
 
     private Languages language;
+    private static final String PATTERN_MESSAGE_PATH = "message_{0}.properties";
 
     public Internalizator() {
-    }
-
-    public Internalizator(Languages language) {
-        setLanguage(language);
     }
 
     public Languages getLanguage() {
@@ -33,13 +32,12 @@ public class Internalizator {
         setLanguage(Languages.getByCode(language));
     }
 
-    public String getText(String key) {
-        return (String) PropertyReader.getProperty("message_" + language.getDescription() + ".properties", key);
+    public String getPatternMessagePath() {
+        return MessageFormat.format(PATTERN_MESSAGE_PATH, language.getDescription());
     }
 
-    public static void main(String...args) {
-        Internalizator i = new Internalizator(Languages.EN_US);
-        System.out.println(i.getText("text"));
+    public String getText(String key) {
+        return (String) PropertyReader.getProperty(getPatternMessagePath(), key);
     }
 
 }

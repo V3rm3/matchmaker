@@ -4,8 +4,8 @@ import lombok.Data;
 
 /**
  * @author renantdesouza.
- * @since 03/30/2016
- */
+ * @since 03/30/2016.
+ * */
 public @Data class Address {
 
     private Long id;
