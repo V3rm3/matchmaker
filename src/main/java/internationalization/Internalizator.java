@@ -5,6 +5,9 @@ import java.text.MessageFormat;
 /**
  * TODO CARREGAR A LINGUA ANTES DE INICIAR QUALQUER ACAO.
  *
+ * The traductor class, translate system messages according selected language,
+ * searching messages from .properties archive.
+ *
  * @author renantdesouza.
  * @since 04/06/2016.
  * */

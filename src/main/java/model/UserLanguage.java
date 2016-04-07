@@ -4,6 +4,8 @@ import internationalization.Languages;
 import lombok.Data;
 
 /**
+ * The selected language by the user in first access.
+ *
  * @author renantdesouza.
  * @ssince 04/07/2016.
  * */

@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
+ * Reads a system property archive.
+ *
  * @author renantdesouza.
  * @since 04/06/2016.
  * */
