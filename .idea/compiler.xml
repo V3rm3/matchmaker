@@ -14,7 +14,7 @@
       <entry name="!?*.aj" />
     </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
+      <profile default="true" name="Default" enabled="true">
         <processorPath useClasspath="true" />
       </profile>
       <profile default="false" name="Maven default annotation processors profile" enabled="true">
@@ -23,10 +23,11 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="ma" />
+        <module name="matchmaker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ma" target="1.5" />
+      <module name="matchmaker" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

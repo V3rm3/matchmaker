@@ -1,11 +1,11 @@
-package internationalizaion;
+package internationalization;
 
 import java.io.IOException;
 import java.util.Properties;
 
 /**
  * @author renantdesouza.
- * @since 06/04/2016.
+ * @since 04/06/2016.
  */
 public class PropertyReader {
 

@@ -1,10 +1,10 @@
-package internationalizaion;
+package internationalization;
 
 /**
  * TODO CARREGAR A LINGUA ANTES DE INICIAR QUALQUER ACAO.
  *
  * @author renantdesouza.
- * @since 06/04/2016.
+ * @since 04/06/2016.
  */
 public class Internalizator {
 

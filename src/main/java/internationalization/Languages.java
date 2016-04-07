@@ -1,7 +1,8 @@
-package internationalizaion;
+package internationalization;
 
 /**
- * Created by Wilsinho on 06/04/2016.
+ * @author renantdesouza
+ * @since 04/06/2016.
  */
 public enum Languages {
 
