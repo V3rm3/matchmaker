@@ -15,7 +15,7 @@ public class HTTPTest {
     @Test
     public void insert() {
         Client client = Client.create();
-        WebResource resource = client.resource("http://localhost:8082").path("rest/user/insert");
+        WebResource resource = client.resource("http://localhost:8082").path("rest/test/get");
         String process = resource.get(String.class);
 
         System.out.println(process);
