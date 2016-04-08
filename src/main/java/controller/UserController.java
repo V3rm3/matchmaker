@@ -1,6 +1,5 @@
 package controller;
 
-import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 
 /**
@@ -9,11 +8,5 @@ import javax.ws.rs.Path;
  */
 @Path("user")
 public class UserController {
-
-    @Path("insert")
-    @GET
-    public String insert() {
-        return "user";
-    }
 
 }

@@ -10,7 +10,7 @@ import static org.junit.Assert.assertNotNull;
  * @author renantdesouza.
  * @since 07/04/2016.
  */
-public class HTTPUserTest {
+public class HTTPTest {
 
     @Test
     public void insert() {
