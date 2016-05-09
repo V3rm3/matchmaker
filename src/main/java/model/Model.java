@@ -4,8 +4,8 @@ package model;
  * @author renantdesouza.
  * @since 05/04/2016.
  * */
-public interface Model<T> {
+public interface Model {
 
-    T getId();
+    String getId();
 
 }

@@ -11,7 +11,7 @@ import java.lang.reflect.Field;
  * @author renantdesouza.
  * @since 04/07/2016.
  */
-public class ValidatorImpl<T extends Model<?>> implements  Validator<T> {
+public class ValidatorImpl<T extends Model> implements  Validator<T> {
 
     private Class<T> modelClass;
 
@@ -26,7 +26,7 @@ public class ValidatorImpl<T extends Model<?>> implements  Validator<T> {
                 f.setAccessible(true);
                 try {
                     Validate validate = f.getAnnotation(Validate.class);
-                    if (f.get(this) == null && !validate.nullable()) {
+                    if (f.get(this) == null && !validate.notnull()) {
                         return false;
                     }
                 } catch (IllegalArgumentException | IllegalAccessException e) {

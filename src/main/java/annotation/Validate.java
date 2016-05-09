@@ -15,6 +15,6 @@ import java.lang.annotation.Target;
 @Target(value= ElementType.FIELD)
 public @interface Validate {
 
-    boolean nullable() default true;
+    boolean notnull() default false;
 
 }

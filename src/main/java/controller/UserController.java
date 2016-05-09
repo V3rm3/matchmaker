@@ -1,5 +1,7 @@
 package controller;
 
+import model.User;
+
 import javax.ws.rs.Path;
 
 /**
@@ -7,6 +9,6 @@ import javax.ws.rs.Path;
  * @since 08/04/2016.
  */
 @Path("user")
-public class UserController {
+public class UserController extends Controller<User>{
 
 }

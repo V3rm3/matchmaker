@@ -10,9 +10,9 @@ import java.util.Date;
  * @since 03/30/2016
  * */
 @XmlRootElement
-public @Data class User {
+public @Data class User implements Model {
 
-    private Long id;
+    private String id;
     private String name;
     private String nickname;
     private String pass;

@@ -8,7 +8,7 @@ import model.Model;
  * @author renantdesouza.
  * @ssince 05/04/2016.
  * */
-public class DAO<T extends Model<?>> {
+public class DAO<T extends Model> {
 
     private Class<T> klazz;
 

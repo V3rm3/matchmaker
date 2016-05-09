@@ -11,7 +11,7 @@ import validator.ValidatorImpl;
  * @author  renantdesouza.
  * @since 05/04/2016.
  * */
-public class Service<T extends Model<?>> {
+public class Service<T extends Model> {
 
     protected DAO<T> dao;
     protected Validator<T> validator;
